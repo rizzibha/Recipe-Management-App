@@ -1,9 +1,9 @@
 import { Navigate, Route, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar.jsx";
-import Home from "Recipe Management App\src\pages\Home.jsx";
-import AddRecipe from "Recipe Management App\src\pages\AddRecipe.jsx";
-import RecipeDetails from "Recipe Management App\src\pages\RecipeDetails.jsx";
-import Favorites from "Recipe Management App\src\pages\Favorites.jsx";
+import Home from "./pages/Home.jsx";
+import AddRecipe from "./pages/AddRecipe.jsx";
+import RecipeDetails from "./pages/RecipeDetails.jsx";
+import Favorites from "./pages/Favorites.jsx";
 import "./App.css";
 
 export default function App() {
